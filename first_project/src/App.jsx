@@ -1,3 +1,4 @@
+import Conditional_rendering from "./component/Conditional_rendering";
 import Map_fun from "./component/Map_fun";
 
 
@@ -9,6 +10,8 @@ const App = () => {
     <div>
   
       <Map_fun/>
+
+      <Conditional_rendering/>
 
     </div>
   );
