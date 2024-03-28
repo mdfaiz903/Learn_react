@@ -15,6 +15,12 @@ const App = () => {
       <Conditional_rendering/>
       <Condition_ren_IIF/>
 
+
+      <button onClick={
+        function demo(){
+          alert("Hellow")
+        }
+      }>Submit</button>
     </div>
   );
 };
