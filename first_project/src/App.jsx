@@ -6,7 +6,10 @@ import Map_fun from "./component/Map_fun";
 
 
 const App = () => {
- 
+  function SubForm(A){
+    A.preventDefault();
+    alert("No Reload");
+  }
   return (
     <div>
   
@@ -21,6 +24,12 @@ const App = () => {
           alert("Hellow")
         }
       }>Submit</button>
+
+      <hr />
+      <form onSubmit={SubForm} action="" method="post">
+        <input type="text" name="" placeholder="Name" id="" />
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 };
